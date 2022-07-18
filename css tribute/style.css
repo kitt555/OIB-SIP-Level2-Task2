@@ -1,0 +1,112 @@
+/* body */
+
+body {
+    background-color: rgb(126, 124, 124);
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;   
+    background-image: url(/images-uttam/movie.jpg);
+    background-size: cover;
+    padding: 25px;
+    backdrop-filter: blur(7px);
+} 
+
+/* First div */
+
+  .first-div-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+  }
+  
+  .first-div-subtitle {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .first-div-subtitle2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 50;
+  }
+
+  .first-div-intro{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 50;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* video */
+
+  #vid{
+    margin-top: 50px;
+    border: 7px solid #ececec;
+    box-sizing: border-box;
+    height: 480px;
+    width: 854px;
+    background-color: grey;
+  }
+ 
+  .caption{
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  /* Second div */
+
+  .second-div-title{
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .second-div-bio{
+    font-size: 19px;
+    text-align: justify;
+  }
+
+  /* Float images with text */
+
+  .img-s{
+    float: left;
+    margin-right: 20px;
+  }
+
+  .img-u{
+    float: right;
+    margin-left: 20px;
+  }
+
+  .text-s, .text-u{
+    font-size: 19px;
+    text-align: justify;
+  }
+
+
+/* Third div */
+
+  .third-div{
+    margin-top: 30px;
+    font-weight: 500;
+  }
+
+  a {
+    color: antiquewhite;
+  }
+
+  a:hover{
+    color: red;
+  }
+
+  .container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
